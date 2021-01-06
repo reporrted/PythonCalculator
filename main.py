@@ -1,3 +1,10 @@
+''' 
+
+Magical Calculator
+Udemy Python Tutorial
+
+'''
+
 import re
 
 print("Magical Calculator")
@@ -17,6 +24,7 @@ def performMath():
     else:
         equation = input(str(previous))
 
+    # if user quites ->
     if equation == 'quit':
         print("Goodbye, Tiny Human.")
         run = False
