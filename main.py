@@ -24,7 +24,7 @@ def performMath():
     else:
         equation = input(str(previous))
 
-    # if user quites ->
+    # if user quits ->
     if equation == 'quit':
         print("Goodbye, Tiny Human.")
         run = False
